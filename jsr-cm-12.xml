@@ -5,10 +5,10 @@
   <project path="device/jsr/d9"                      name="jsr-d9/android_device_jsr_d9"                   remote="github" revision="cm-12.1"/>
   <project path="kernel/jsr/msm8625"                 name="jsr-d9/android_kernel_jsr_msm8625"              remote="github" revision="d9" />
   <project path="vendor/jsr/kobj"                    name="jsr-d9/android_vendor_jsr_kobj"                 remote="github" revision="d9" />
-  <project path="vendor/jsr"                         name="jsr-d9/android_vendor_jsr"                      remote="github" revision="cm-12.1" />
+  <project path="vendor/jsr/d9"                      name="jsr-d9/android_vendor_jsr_d9"                   remote="github" revision="cm-12.1" />
 
   <!-- WIFI -->
-  <project path="hardware/atheros/wifi/ath6kl"       name="jsr-d9/android_hardware_atheros_wifi_ath6kl"    remote="github" revision="cm-12.1" />
+  <project path="hardware/atheros/wifi/ath6kl"       name="jsr-d9/android_hardware_atheros_wifi_ath6kl"    remote="github" revision="d9" />
   <project path="hardware/atheros/wlan"              name="CyanogenMod/android_hardware_atheros_wlan"      remote="github" revision="cm-12.1" />
 
   <!-- QCOM Hardware -->
