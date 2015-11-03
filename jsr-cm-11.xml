@@ -10,7 +10,12 @@
   <!-- WIFI -->
   <project path="hardware/atheros/wifi/ath6kl"       name="jsr-d9/android_hardware_atheros_wifi_ath6kl"    remote="github" revision="d9" />
   <project path="hardware/atheros/wlan"              name="CyanogenMod/android_hardware_atheros_wlan"      remote="github" revision="cm-11.0" />
-  
+
+  <!-- QCOM Hardware -->
   <project path="hardware/qcom/fm"                   name="CyanogenMod/android_hardware_qcom_fm"           remote="github" revision="cm-11.0" />
+
+  <!-- Toolchain -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="jsr-d9/arm-eabi-4.8"                      remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="jsr-d9/arm-linux-androideabi-4.8" groups="github" remote="master" />
 
  </manifest>
