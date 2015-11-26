@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project name="CyanogenMod/android_hardware_ril" />
+  
   <project path="device/qcom/common"                 name="CyanogenMod/android_device_qcom_common"         remote="github" revision="cm-11.0" />
 
   <!-- Device Folders, Kernel & Proprietary BLOBS -->
   <project path="device/jsr/d9"                      name="jsr-d9/android_device_jsr_d9"                   remote="github" revision="cm-11.0"/>
   <project path="kernel/jsr/msm8625"                 name="jsr-d9/android_kernel_jsr_msm8625"              remote="github" revision="d9" />
   <project path="vendor/jsr/d9"                      name="jsr-d9/android_vendor_jsr_d9"                   remote="github" revision="cm-11.0" />
+
+  <!-- RIL -->
+  <project path="hardware/ril"                       name="jsr-d9/android_hardware_ril-legacy"             remote="github" revision="jb_2.5_qrd_main" />
 
   <!-- WIFI -->
   <project path="hardware/atheros/wifi/ath6kl"       name="jsr-d9/android_hardware_atheros_wifi_ath6kl"    remote="github" revision="d9" />
