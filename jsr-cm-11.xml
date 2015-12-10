@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="bb" fetch="https://bitbucket.org/" />
+
+  <default sync-j="4" />
+
   <remove-project name="CyanogenMod/android_hardware_ril" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
-  
+
   <project path="device/qcom/common"                 name="CyanogenMod/android_device_qcom_common"         remote="github" revision="cm-11.0" />
 
   <!-- Device Folders, Kernel & Proprietary BLOBS -->
@@ -22,7 +26,7 @@
   <project path="hardware/qcom/display-caf"          name="jsr-d9/android_hardware_qcom_display-caf"       remote="github" revision="cm-11.0" />
 
   <!-- Toolchain -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="jsr-d9/arm-eabi-4.8"                      remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="jsr-d9/arm-linux-androideabi-4.8" groups="github" remote="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9"                           remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.8" remote="bb" revision="master" />
 
  </manifest>
