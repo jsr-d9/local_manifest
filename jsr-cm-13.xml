@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="bb" fetch="https://bitbucket.org/" />
+
+  <default sync-j="4" />
+
+  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />  
+  
+  <!-- Device Folders, Kernel & Proprietary BLOBS -->
+  <project path="device/jsr/d9"                      name="jsr-d9/android_device_jsr_d9"                   remote="github" revision="cm-13.0"/>
+  <project path="kernel/jsr/msm8625"                 name="jsr-d9/android_kernel_jsr_msm8625"              remote="github" revision="d9-3" />
+  <project path="vendor/jsr/d9"                      name="jsr-d9/android_vendor_jsr_d9"                   remote="github" revision="cm-13.0" />
+
+  <!-- RIL -->
+  <project path="hardware/ril-legacy"                name="jsr-d9/android_hardware_ril-legacy"             remote="github" revision="jb_2.5_qrd_main" />
+
+  <!-- WIFI -->
+  <project path="hardware/atheros/wifi/ath6kl"       name="jsr-d9/android_hardware_atheros_wifi_ath6kl"    remote="github" revision="d9" />
+  <project path="hardware/atheros/wlan"              name="jsr-d9/android_hardware_atheros_wlan"           remote="github" revision="cm-13.0" />
+
+  <!-- GPS -->
+  <project path="hardware/qcom/gps"                  name="CM13-Y300/android_hardware_qcom_gps"            remote="github" revision="cm-13.0" />
+
+  <!-- QCOM Hardware -->
+  <project path="hardware/qcom/display-caf/msm7x27a" name="jsr-d9/android_hardware_qcom_display-caf"       remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/media-caf/msm7x27a"   name="SlimLP-Y300/hardware_qcom_media"                remote="github" revision="lp5.1" />
+
+  <!-- Stlport -->
+  <project path="external/stlport"                   name="CyanogenMod/android_external_stlport"           remote="github" revision="cm-13.0" />
+
+  <!-- Toolchain -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9"                       remote="bb" revision="master" />
+
+ </manifest>
