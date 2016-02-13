@@ -15,7 +15,7 @@
   <project path="vendor/jsr/d9"                      name="jsr-d9/android_vendor_jsr_d9"                   remote="github" revision="cm-11.0" />
 
   <!-- RIL -->
-  <project path="hardware/ril"                       name="jsr-d9/android_hardware_ril-legacy"             remote="github" revision="jb_2.5_qrd_main" />
+  <project path="hardware/ril"                       name="jsr-d9/android_hardware_ril-legacy"             remote="github" revision="cm-11.0" />
 
   <!-- WIFI -->
   <project path="hardware/atheros/wifi/ath6kl"       name="jsr-d9/android_hardware_atheros_wifi_ath6kl"    remote="github" revision="d9" />
